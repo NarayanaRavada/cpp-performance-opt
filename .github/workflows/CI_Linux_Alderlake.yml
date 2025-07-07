@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: [self-hosted, Linux, alderlake]
     timeout-minutes: 7
-    
+
     steps:
     - uses: actions/checkout@v2
       with:
